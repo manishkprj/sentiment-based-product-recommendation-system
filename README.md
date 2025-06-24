@@ -2,6 +2,8 @@
 
 **Demo URL**: [https://product-recommendation-130dbb6b216e.herokuapp.com/](https://product-recommendation-130dbb6b216e.herokuapp.com/)
 
+**Source Code**: [https://github.com/manishkprj/sentiment-based-product-recommendation-system/](https://github.com/manishkprj/sentiment-based-product-recommendation-system/)
+
 ---
 
 ## Problem Statement
