@@ -178,7 +178,7 @@ Heroku deployment live:
 
 ## Final Files & Structure
 
-- `notebook.ipynb` — Full project notebook (EDA → modeling → evaluation → validation)  
+- `sentiment_based_product_recommendation_system.ipynb` — Full project notebook (EDA → modeling → evaluation → validation)  
 - `model.py` — Final **sentiment model** and **recommendation system** code  
 - `app.py` — Flask backend  
 - `index.html` — Frontend (Bootstrap + jQuery UI)  
