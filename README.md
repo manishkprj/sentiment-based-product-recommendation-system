@@ -238,7 +238,7 @@ This project consists of:
 ###  Installation for Jupyter Notebook
 
 ```bash
-pip install -r notbook-requirements.txt
+pip install -r notebook-requirements.txt
 ```
 
 ###  Installation for Flask Web App
