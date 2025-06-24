@@ -186,6 +186,67 @@ Heroku deployment live:
 
 ---
 
+## Library Installation & Dependencies
+
+This project consists of:
+
+1. **Jupyter Notebook**  
+   → For EDA, data processing, text cleaning, feature engineering, sentiment model building, recommendation engine building and validation.
+
+2. **Flask Web App**  
+   → For interactive UI where user can input username and get 5 product recommendations based on sentiment.
+
+---
+
+### Dependencies (Notebook) (Google Colab)
+
+#### Python Version
+
+- Python >= 3.11.13 
+
+| Library           | Version  |
+|-------------------|----------|
+| numpy             | 2.0.2    |
+| pandas            | 2.2.2    |
+| matplotlib        | 3.10.0   |
+| seaborn           | 0.13.2   |
+| wordcloud         | 1.9.4    |
+| nltk              | 3.9.1    |
+| imbalanced-learn  | 0.13.0   |
+| scikit-learn      | 1.6.1    |
+| xgboost           | 2.1.4    |
+
+---
+
+### Dependencies (Flask Web App)
+
+#### Python Version
+
+- Python >= 3.12.2
+
+| Library           | Version  |
+|-------------------|----------|
+| numpy             | 1.26.4    |
+| pandas            | 2.3.0    |
+| nltk              | 3.9.1    |
+| Flask             | 3.1.0   |
+| gunicorn          | 23.0.0   |
+| scikit-learn      | 1.6.1    |
+
+---
+
+###  Installation for Jupyter Notebook
+
+```bash
+pip install -r notbook-requirements.txt
+```
+
+###  Installation for Flask Web App
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Conclusion
 
 In this project, we successfully built a **complete Sentiment-Based Product Recommendation System**:
